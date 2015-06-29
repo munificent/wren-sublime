@@ -1,0 +1,11 @@
+{
+  "scope": "source.wren",
+  "completions": [
+   { "trigger": "false" },
+   { "trigger": "new" },
+   { "trigger": "null" },
+   { "trigger": "super" },
+   { "trigger": "this" },
+   { "trigger": "true" },
+  ]
+}

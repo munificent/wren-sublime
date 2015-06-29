@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+for ($1 in $2) {
+  $3
+}]]></content>
+    <tabTrigger>for</tabTrigger>
+    <scope>source.wren</scope>
+    <description>for statement</description>
+</snippet>

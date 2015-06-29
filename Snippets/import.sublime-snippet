@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+import "$1" for ${1/^(\w)|(?:_(\w))/(?1\u$1:)(?2\u$2:)/g}
+]]></content>
+    <tabTrigger>import</tabTrigger>
+    <scope>source.wren</scope>
+    <description>import statement</description>
+</snippet>

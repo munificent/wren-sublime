@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+while ($1) {
+  $2
+}]]></content>
+    <tabTrigger>while</tabTrigger>
+    <scope>source.wren</scope>
+    <description>while statement</description>
+</snippet>

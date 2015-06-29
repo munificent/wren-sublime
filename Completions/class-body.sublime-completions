@@ -1,0 +1,7 @@
+{
+  "scope": "meta.class.body.wren",
+
+  "completions": [
+   { "trigger": "static" },
+  ]
+}
