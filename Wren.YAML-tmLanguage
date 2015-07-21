@@ -142,7 +142,7 @@ repository:
       - include: '#code'
   method:
     name: meta.method.wren
-    begin: (\bstatic\s+)?(\w+\s*=|\w+|\+|-|\*|/|%|<=?|>=?|==|!=?|&|\||~)
+    begin: (\b(construct|static)\s+)?(\w+\s*=|\w+|\+|-|\*|/|%|<=?|>=?|==|!=?|&|\||~)
     beginCaptures:
       '1':
         name: storage.modifier.wren
@@ -163,7 +163,7 @@ repository:
       - include: '#code'
   method-foreign:
     name: meta.method.wren
-    begin: (\bforeign)\s+(\bstatic\s+)?(\w+\s*=|\w+|\+|-|\*|/|%|<=?|>=?|==|!=?|&|\||~)
+    begin: (\bforeign)\s+(\b(construct|static)\s+)?(\w+\s*=|\w+|\+|-|\*|/|%|<=?|>=?|==|!=?|&|\||~)
     beginCaptures:
       '1':
         name: storage.modifier.wren
