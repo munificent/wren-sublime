@@ -108,7 +108,7 @@ repository:
   keyword:
     patterns:
     - name: keyword.control.wren
-      match: \b(break|else|for|if|import|in|new|return|while|var)\b
+      match: \b(break|continue|else|for|if|import|in|new|return|while|var)\b
     - name: keyword.operator.logical.wren
       match: (!|&&|\|\|)
     - name: keyword.control.wren
