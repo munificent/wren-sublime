@@ -314,7 +314,7 @@
 			<array>
 				<dict>
 					<key>match</key>
-					<string>\b(break|else|for|if|import|in|new|return|while|var)\b</string>
+					<string>\b(break|continue|else|for|if|import|in|new|return|while|var)\b</string>
 					<key>name</key>
 					<string>keyword.control.wren</string>
 				</dict>
